@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen d'HTML Miel Clément</title>
+    <link rel="shortcut icon" href="./img/book-icon-156-Windows.ico" type="image/x-icon">
+    <meta name="description" content="Examen d'HTML sur la Session 3 de SJT Soissons">
+</head>
+
+<body>
+    <header>
+        <h1>HTML dans sa globalité</h1>
+    </header>
+
+    <main>
+        <article>
+            <div id="presentation">
+                <h2>Bonjour!</h2>
+                <p>Mon Nom est <strong>Miel Clément</strong>, j'ai <strong>28 ans</strong> et je passe un examen d'HTML
+                    ! Je suis à
+                    la SJT de Soissons ou je prépare
+                    un titre pro de développeur Web et Web Mobile. J'aime <strong>les jeux-vidéos</strong></p>
+            </div>
+            <hr>
+            <div id="parcours">
+                <h2>Mon Parcours</h2>
+                <ul>
+                    <li>Préparation Titre Pro développeur Web</li>
+                    <li>BTS Comptabilité</li>
+                    <li>Bac Comptabilité</li>
+                    <li>Brevet des collèges</li>
+                </ul>
+            </div>
+            <hr>
+            <div id="competences">
+                <h2>Mes compétences en web</h2>
+                
+                <table border>
+                    <thead>
+                        <tr>
+                            <th>Technologie</th>
+                            <th>Débutant</th>
+                            <th>Moyen</th>
+                            <th>Bon</th>
+                            <th>Expert</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><img src="./img/html.svg" alt="logo HTML"></td>
+                            <td></td>
+                            <td></td>
+                            <td>X</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><img src="./img/css.svg" alt="logo CSS"></td>
+                            <td></td>
+                            <td>X</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><img src="./img/js.svg" alt="logo Javascript"></td>
+                            <td>X</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><img src="./img/php.svg" alt="logo PHP"></td>
+                            <td>X</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><img src="./img/sql.svg" alt="logo SQL"></td>
+                            <td>X</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="contact">
+                <h2>Me contacter</h2>
+                <p>Pour me contacter, vous pouver utiliser <a href="mailto:miel.clement@orange.fr" title="mon email"
+                        rel="nofollow">mon mail </a> et
+                    <a href="tel:+33637962405" title="Mon téléphone !" rel="nofollow">mon téléphone</a>.
+                </p>
+            </div>
+            <div id="formulaire_de_contact">
+                <h3>Formulaire de contact</h3>
+                <form action="#" method="post">
+                    <div>
+                        <label for="Homme">Homme &male;</label>
+                        <input type="radio" name="genre" id="Homme" value="Homme">
+                    </div>
+
+                    <div>
+                        <label for="Femme">Femme &female;</label>
+                        <input type="radio" name="genre" id="Femme" value="Femme">
+                    </div>
+
+                    <div>
+                        <label for="nom">Nom & Prénom :</label>
+                        <input type="text" name="nom" id="nom" placeholder="ex : Didier Deschamps">
+                    </div>
+
+                    <div>
+                        <label for="age">Age : </label>
+                        <input type="number" name="age" id="age" placeholder="ex : 52">
+                        <label for="age"> ans</label>
+                    </div>
+
+                    <div>
+                        <label for="mail">Email : </label>
+                        <input type="email" name="mail" id="mail" placeholder="ex : prenom@domaine.com">
+                    </div>
+
+                    <div>
+                        <label for="sujet"> Sujet : </label>
+                        <select name="sujet" id="sujet">
+                            <option value="">Choisissez</option>
+                            <option value="discuter">Je souhaite discuter</option>
+                            <option value="renontrer">Je souhaite vous rencontrer</option>
+                            <option value="travail">Je souhaite vous donner du travail</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="message">Votre message :</label>
+                    </div>
+                    <textarea name="message" id="message" cols="70" rows="10"
+                        placeholder="ex : Madame, Monsieur..."></textarea>
+
+                    <div>
+                        <input type="checkbox" name="cgu" id="cgu">
+                        <label for="cgu"> En cochant cette case, j'accepte les conditions relatives à l'utilisation de
+                            mes données personnelles décrites dans les <a href="#" title="mentions légales">Mentions
+                                légales</a>.</label>
+                    </div>
+
+                    <button type="submit">Envoyer le message</button>
+                </form>
+            </div>
+        </article>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/--hnzO3tMQo" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+    </main>
+
+    <footer>
+        <p>Soyez Sympa, mettez des points !</p>
+    </footer>
+</body>
+
+</html>
